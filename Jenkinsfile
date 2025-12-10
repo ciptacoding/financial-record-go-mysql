@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'devops1-cipta' }
+    agent { label 'dev' }
 
     stages {
         stage('Pull SCM') {
